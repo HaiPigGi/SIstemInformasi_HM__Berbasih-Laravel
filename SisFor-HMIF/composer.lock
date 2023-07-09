@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf14086919a839fe740e00554e4baff6",
+    "content-hash": "7844e3de71ececb9a27393f0415d0b08",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -495,34 +495,39 @@
         },
         {
             "name": "fruitcake/laravel-cors",
-            "version": "v2.2.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruitcake/laravel-cors.git",
-                "reference": "783a74f5e3431d7b9805be8afb60fd0a8f743534"
+                "reference": "8cc9f7e5f1b9b280ae2378b3624e6b5603e63e8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruitcake/laravel-cors/zipball/783a74f5e3431d7b9805be8afb60fd0a8f743534",
-                "reference": "783a74f5e3431d7b9805be8afb60fd0a8f743534",
+                "url": "https://api.github.com/repos/fruitcake/laravel-cors/zipball/8cc9f7e5f1b9b280ae2378b3624e6b5603e63e8c",
+                "reference": "8cc9f7e5f1b9b280ae2378b3624e6b5603e63e8c",
                 "shasum": ""
             },
             "require": {
-                "asm89/stack-cors": "^2.0.1",
-                "illuminate/contracts": "^6|^7|^8|^9",
-                "illuminate/support": "^6|^7|^8|^9",
-                "php": ">=7.2"
+                "asm89/stack-cors": "^2",
+                "illuminate/contracts": "^5.6|^6.0|^7.0|^8.0",
+                "illuminate/support": "^5.6|^6.0|^7.0|^8.0",
+                "php": ">=7.1",
+                "symfony/http-foundation": "^4.0|^5.0",
+                "symfony/http-kernel": "^4.0|^5.0"
             },
             "require-dev": {
-                "laravel/framework": "^6|^7.24|^8",
-                "orchestra/testbench-dusk": "^4|^5|^6|^7",
-                "phpunit/phpunit": "^6|^7|^8|^9",
+                "laravel/framework": "^5.5|^6.0|^7.0|^8.0",
+                "orchestra/dusk-updater": "^1.2",
+                "orchestra/testbench": "^3.5|^4.0|^5.0|^6.0",
+                "orchestra/testbench-dusk": "^5.1",
+                "phpro/grumphp": "^0.16|^0.17",
+                "phpunit/phpunit": "^6.0|^7.0|^8.0",
                 "squizlabs/php_codesniffer": "^3.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.0-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -558,20 +563,16 @@
             ],
             "support": {
                 "issues": "https://github.com/fruitcake/laravel-cors/issues",
-                "source": "https://github.com/fruitcake/laravel-cors/tree/v2.2.0"
+                "source": "https://github.com/fruitcake/laravel-cors/tree/master"
             },
             "funding": [
-                {
-                    "url": "https://fruitcake.nl",
-                    "type": "custom"
-                },
                 {
                     "url": "https://github.com/barryvdh",
                     "type": "github"
                 }
             ],
             "abandoned": true,
-            "time": "2022-02-23T14:25:13+00:00"
+            "time": "2020-05-11T09:29:18+00:00"
         },
         {
             "name": "graham-campbell/result-type",

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class UpdateUsersTables extends Migration
+class CreatePostTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,14 @@ class UpdateUsersTables extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('posts', function (Blueprint $table) {
+            $table->id();
+            $table->string('image');
+            $table->string('title');
+            $table->text('content');
+            $table->timestamps();
+        });
     }
-
     /**
      * Reverse the migrations.
      *
@@ -23,6 +28,6 @@ class UpdateUsersTables extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('posts');
     }
-}
+};

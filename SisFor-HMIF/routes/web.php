@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,8 +17,21 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeControllerUsers::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeControllerUsers::class, 'index'])->name('home');
+Route::get('/adminHM', [App\Http\Controllers\HomeControllerAdmin::class, 'index'])->name('homeAdmin');
+
+Route::get('/admin/users', [UserController::class, 'index'])->name('userList');
+
+Route::middleware(['auth'])->prefix('admin')->group(function () {
+    Route::get('/berita', [PostController::class, 'index'])->name('posts.index');
+    Route::get('/berita/create', [PostController::class, 'create'])->name('posts.create');
+    Route::post('/berita', [PostController::class, 'store'])->name('posts.store');
+    Route::get('/berita/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
+    Route::put('/berita/{post}', [PostController::class, 'update'])->name('posts.update');
+    Route::delete('/berita/{post}', [PostController::class, 'destroy'])->name('posts.destroy');
+});
+
 Route::get('/logout', function () {
     Auth::logout();
     return redirect('/');
@@ -34,4 +48,4 @@ Route::get('/register-success', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeControllerUsers::class, 'index'])->name('home');
