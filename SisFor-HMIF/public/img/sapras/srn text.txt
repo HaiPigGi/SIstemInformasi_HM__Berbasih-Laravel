@@ -1,0 +1,322 @@
+Sarana dan Prasarana
+Untuk menunjang kegiatan belajar mengajar, Universitas AMIKOM Yogyakarta memiliki berbagai sarana dan prasarana
+fisik, yaitu:
+1. Ruang Kelas
+Semua ruangan kelas didesain menggunakan air conditoner (AC), standar sound system yang memadai, LCD Viewer,
+komputer presentasi, presensi dengan kartu magnetk, serta kamera CCTV untuk kenyamanan proses belajar
+mengajar.
+2. Laboratorium
+Universitas AMIKOM Yogyakarta memiliki 16 laboratorium, yaitu:
+a. Laboratorium Dasar (Lab. I)
+Berkapasitas 80 orang dan dilengkapi dengan perangkat keras sejumlah 81 unit dengan 80 unit sebagai client
+menggunakan Prosessor Intel Core I5 4460 3.2 Hz 6 MB, Memory 8 GB (4 GB X 2 Visipro DDR3), VGA ASUS
+GT640 2 GB DDR3 128 BIT, HDD 500 GB SATA III, dan 1 unit sebagai komputer presentasi dengan masing-masing
+memakai LCD monitor.
+Laboratorium ini terkoneksi dengan 1 server untuk dua laboratorium aplikasi (Lab 1 dan 2) menggunakan HP
+Proliant ML 150 G6, Prosesor Intel Xeon X5500 series, Memory DDR3 4 Gb, HDD 250 Gb plus 1 Tb SATA ES, NIC
+Gigabit. Laboratorium ini dilengkapi dengan berbagai program aplikasi dalam kategori rumpun aplikasi dasar.
+Koneksi jaringan menggunakan TCP/IP. Guna memperlancar kegiatan praktikum. Laboratorium ini dilengkapi
+beberapa sarana penunjang yaitu: jaringan LAN dengan kecepatan 1 Gbps dan juga terhubung jaringan internet
+dengan kecepatan sampai dengan 6 Mbps. Presensi elektronik dengan kartu magnetik, sound system, ruangan
+ber-AC, kamera CCTV, Onfinity CM2 MAX, LCD viewer, dan LCD Projector untuk membantu proses belajar
+mengajar. Laboratorium 1 terletak di gedung 2 lantai 3 Universitas AMIKOM Yogyakarta.
+b. Laboratorium Pengembangan Aplikasi (Lab. 2)
+Berkapasitas 80 orang dan dilengkapi perangkat keras sebanyak 81 unit dengan 80 unit sebagai client
+mengunakan prosesor Intel Core I5 3.2 Ghz,Memory 8 GB 4GBX2 Kingstone, HDD 50 GB WD Blue SATA 3, dan
+1 unit sebagai komputer presentasi dengan masing-masing memakai Monitor Philips LED 203V5 Wide 19.5“.
+Laboratorium ini juga terkoneksi dengan 1 server untuk dua laboratorium aplikasi (Lab 1 dan 2) menggunakan
+HP Proliant ML 150 G6, Prosesor Intel Xeon X5500 series, Memory DDR3 4 Gb, HDD 250 Gb plus 1 Tb SATA ES,
+NIC Gigabit. Laboratorium ini dilengkapi software-software yang digunakan untuk rumpun aplikasi dasar. Guna
+memperlancar kegiatan praktikum Laboratorium ini dilengkapi beberapa sarana penunjang yaitu: jaringan LAN
+dengan kecepatan 1 GBps dan juga terhubung jaringan internet dengan kecepatan sampai dengan 6 Mbps,
+Presensi elektronik dengan kartu magnetik, sound system, ruangan ber-AC, kamera CCTV, Onfinity CM2 MAX,
+LCD viewer, dan LCD Projector untuk membantu proses belajar mengajar. Laboratorium 2 terletak di gedung 2
+lantai 3 Universitas AMIKOM Yogyakarta.
+c. Laboratorium ELektronika Digital (Lab. 3)
+Berkapasitas 80 Orang dilengkapi dengan 24 unit Mini 32 System yang dapat digunakan untuk praktikum komunikasi
+data dan Hardware/Software 2. Beberapa peralatan dan komponen elektronika sebagai pendukung dalam membuat
+electronic training board. Laboratorium ini juga menyediakan alat peraga untuk Hardware/Software sebanyak 21 unit
+dengan spesifikasi Prosesor Intel Core i3-2100 3,1 Ghz, Motherboard Intel, Memory DDR3 PC 10600 4 GB (2x2GB),
+Harddsik 250 GB SATA. Laboratorium ini tersedia Komputer Perakitan sebanyak 20 unit dengan spesifikasi Prosessor
+Intel Core2Duo E4400 ( 2 GHz Memory 512 DDR II Visipro, VGA PCI Nvidia 7200G-128M, HDD 80 GB Seagate SATA II.
+Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam proses praktikum antara lain sound system,
+LCD Projector,ruangan ber-AC dan kamera CCTV untuk pengamanan. Lab ini dilengkapi jaringan internet dengan
+kecepatan sampai dengan 6 Mbps. Laboratorium 3 terletak di gedung 2 lantai 3 Universitas AMIKOM Yogyakarta.
+d. Laboratorium Pemrograman (Lab. 4)
+Berkapasitas 80 orang dan dilengkapi dengan 80 komputer client, 1 komputer presentasi dan 1 server 1 Miror untuk
+dua laboratorium pemrograman (Lab 4 Dan 8). Spesifikasi komputer untuk client dan presentasi adalah Prosesor
+Intel Core i5-6400, Mainboard Gigabyte B150M HD3 DDR4, Memory Visipro 8GB DDR4, VGA Gigabyte GT730 DDR5,
+Hard Disk 500GB Seagate SATA 3, Casing Enlight EN2319, Monitor LCD DELL 17” S-1709. Spesifikasi untuk komputer
+server dan mirror adalah HP Proliant ML 330 G6, Prosesor Intel Xeon X5505, Memory DDR3 2 Gb, HDD 250 Gb plus
+1 Tb SATA ES, NIC Gigabit.
+Laboratorium ini juga dilengkapi dengan berbagai aplikasi Windows dan Programming serta aplikasi Internet.
+Guna memperlancar kegiatan praktikum Laboratorium ini dilengkapi beberapa sarana penunjang yaitu: jaringan
+LAN dengan kecepatan 1 GBps dan juga terhubung jaringan internet dengan kecepatan sampai dengan 6 Mbps,
+Presensi elektronik dengan kartu magnetik, sound system, ruangan ber-AC, kamera CCTV, Onfinity CM2 MAX, LCD
+viewer, dan LCD Projector untuk membantu proses belajar mengajar. Laboratorium 4 terletak di gedung 2 lantai 3
+Universitas AMIKOM Yogyakarta.
+e. Laboratorium Rekayasa Perangkat Lunak (Lab. 5)
+Berkapasitas 80 orang dan dilengkapi dengan perangkat keras sejumlah 81 unit dengan 80 unit untuk computer
+client dengan Prosesor Intel Core i-5-6400, Windows 8.1, Memory Visipro 8 GB DDR 4, HDD 500 GB SATA III dan 1
+unit sebagai komputer presentasi dengan masing-masing memakai LCD monitor
+Laboratorium ini juga dilengkapi dengan berbagai aplikasi Windows dan Programming serta aplikasi Internet.
+Guna memperlancar kegiatan praktikum Laboratorium ini dilengkapi beberapa sarana penunjang yaitu: jaringan
+LAN dengan kecepatan 1 GBps dan juga terhubung jaringan internet dengan kecepatan sampai dengan 6 Mbps,
+Presensi elektronik dengan kartu magnetik, sound system, ruangan ber-AC, kamera CCTV, Onfinity CM2 MAX, LCD
+viewer, dan LCD Projector untuk membantu proses belajar mengajar. Laboratorium 5 terletak di gedung 2 lantai 4
+Universitas AMIKOM Yogyakarta.
+f. Laboratorium Pengembangan Sistem Informasi (Lab. 6)
+Berkapasitas 80 orang dan dilengkapi dengan perangkat keras sejumlah 80 unit dengan 79 unit sebagai client Allin-One PC HP Pavilion Omni 100-6117L dengan spesifikasi Monitor LCD 21“, Intel Pentium Intel Pentium E5800 3,20
+Ghz, Memory DDR3 PC10600 2 GB, VGA Intel GMA X4500 256 MB, LAN 1000 Mbps dan harddisk SATA 500 GB, dan 1
+komputer presentasi. Laboratorium ini juga terkoneksi dengan 1 server untuk dua laboratorium aplikasi (Lab 5 Dan
+6) menggunakan HP Proliant ML 150 G6, Prosesor Intel Xeon X5500 series, Memory DDR3 4 Gb, HDD 250 Gb plus 1
+Tb SATA ES, NIC Gigabit. Laboratorium ini dilengkapi software-software yang digunakan untuk rumpun aplikasi dasar.
+Guna memperlancar kegiatan praktikum Laboratorium ini dilengkapi beberapa sarana penunjang yaitu: jaringan
+LAN dengan kecepatan 1 Gbps dan juga terhubung jaringan internet dengan kecepatan sampai dengan 6 Mbps,
+Presensi elektronik dengan kartu magnetik, sound system, ruangan ber-AC, kamera CCTV, Onfinity CM2 MAX, LCD
+viewer, dan LCD Projector untuk membantu proses belajar mengajar. Laboratorium 6 terletak di gedung 2 lantai 4
+Universitas AMIKOM Yogyakarta.
+g. Laboratorium Sistem Operasi dan Jaringan Komputer (Lab. 7)
+Berkapasitas 80 orang dan dilengkapi perangkat keras dengan 80 unit sebagai client menggunakan Prosesor Intel
+Pentium Core i5-3470 3,2 GHz, Memory 4 GB DDR3 VISIPRO, Harddisk 250 GB Seagate dengan dua sistem operasi
+pada masing-masing client yaitu Windows 7 dan GNU/Linux Ubuntu,dan 1 unit komputer presentasi. Laboratorium
+ini dilengkapi dengan beberapa aplikasi untuk administrasi jaringan seperti aplikasi untuk firewall, QoS, ftp server,
+domain name server dan web server serta aplikasi simulasi jaringan Packet Tracer standar Cisco. Laboratorium ini
+terkoneksi internet dengan bandwidth sebesar 1 Mbps. Server dengan Prosesor Intel® Xeon® 5500 series, DDR3
+RDIMM 8 GB. Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam proses praktikum antara lain
+wireless sound system, Presensi elektronik, 4 unit kamera CCTV, LCD Projector/viewer untuk membantu proses
+belajar mengajar, Onfinity CM2 MAX, dan ruangan yang ber-AC, dan dilengkapi jaringan internet dengan kecepatan
+sampai dengan 6 Mbps. Laboratorium 7 terletak di gedung 2 lantai 4 Universitas AMIKOM Yogyakarta.
+h. Laboratorium Pengembangan Game (Lab. 8)
+Berkapasitas 80 orang, Laboratorium ini dilengkapi dengan perangkat keras Processor Intel Core i5 - 4430, DDR 3 4 Gb,
+dengan menggunakan Sistem Operasi Windows 7, 1 unit Komputer Presentasi, 1 unit Komputer Presensi. Laboratorium
+ini juga terhubung dengan 1 server beserta 1 Mirror untuk dua laboratorium pemrograman (Lab 4 dan 8) menggunakan
+HP Proliant ML 330 G6, Prosesor Intel Xeon X5505, Memory DDR3 2 Gb, HDD 250 Gb plus 1 Tb SATA ES, NIC Gigabit.
+Laboratorium ini juga dilengkapi dengan berbagai Software aplikasi dan pemrograman antara lain Ms. Office 2007,
+Adobe, Visual Basic, PHP, Ms. SQL Server 2000,2005,2008, Java Software Development (Eclips, NetBeans) serta aplikasi
+Internet. Laboratorium ini juga terhubung jaringan LAN dengan kecepatan 1 GBps dan juga terhubung jaringan internet
+dengan kecepatan sampai dengan 6 Mbps. Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam
+proses praktikum antara lain wireless sound system, Presensi Elektronik, 4 Unit Camera CCTV, Scanner, LCD Projector/
+Viewer, Onfinity CM2 MAX, ruangan ber-AC, dan Magnetic Reader. Laboratorium 8 terletak di gedung 2 lantai 4
+Universitras Amikom Yogyakarta.
+i. Laboratorium Pengembangan Aplikasi Web (Lab 9)
+Berkapasitas 80 orang, Laboratorium ini dilengkapi dengan perangkat keras Intel Core i5 2320 3.0GHz, DDR3 PC 10600 4
+Gb, Harddisk 250 Gb. dan LCD monitor dengan menggunakan Sistem Operasi Windows XP Profesional. 1 Unit Komputer
+Presentasi, 1 Unit Komputer Presensi, Laboratorium ini juga dilengkapi dengan berbagai aplikasi pemrograman antara
+lain Ms. Office, Visual Basic, Borland C++, MinGW, PHP, MySQL Server, Java Software Development serta aplikasi
+Internet Programming. Laboratorium ini juga terhubung dengan LAN dengan kecepatan 1 GBps dan juga terhubung
+jaringan internet dengan kecepatan sampai dengan 6 Mbps. Server dengan Prosesor Intel® Xeon® 5500 series, DDR3
+RDIMM 8 GB.
+Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam proses praktikum antara lain wireless sound
+system, Presensi Elektronik, 4 Unit Camera CCTV, LCD Projector/Viewer,Onfinity CM2 MAX, dan ruangan ber-AC.
+Laboratorium 9 terletak di gedung 2 lantai 4 Universitas AMIKOM Yogyakarta.
+j. Laboratorium Embedded System (Lab. 10)
+Berkapasitas 80 orang. Laboratorium ini dilengkapi dengan peralatan dan peripheral untuk perakitan serta 40 unit
+perangkat keras Intel Core I5 4460 3.2 Hz, memory DDR 3 4 GB, LCD Monitor 14”.Juga dilengkapi dengan Sistem
+Operasi Windows 8.1, serta dilengkapi dengan jaringan komputer yang terkoneksi dengan internet dengan bandwith
+sampai dengan 6 Mbps. Laboratorium ini dilengkapi dengan komputer perakitan berjumlah 20 unit berspesifikasi
+Prosesor Intel Pentium Dual Core 3,0 GHz, Motherboard Intel, RAM 1GB, Harddisk 80 GB beserta alat yang digunakan
+untuk bongkar pasang (tool box).
+Laboratorium ini juga menyediakan alat peraga trouble shooting untuk Hardware/Software sebanyak 21 unit dengan
+spesifikasi Prosesor Intel Celeron 3.0 Ghz, Motherboard Intel, Ram DDR3 2 GB, Harddsik 80 GB. Laboratorium ini
+juga dilengkapi fasilitas penunjang kenyamanan dalam proses praktikum antara lain Wireless sound system ,Ruangan
+ber-AC, KomputerPresentasi, LCD Projector, Document Camera, Presensi Elektronik, 4 Unit Kamera CCTV,Onfinity
+CM2 MAX, LCD Projector untuk membantu proses belajar mengajar. Laboratorium 10 terletak di gedung 2 lantai 3
+Universitas AMIKOM Yogyakarta.
+k. Laboratorium Pengembangan Multimedia (Lab. 11)
+Berkapasitas 80 orang, Laboratorium ini dilengkapi dengan perangkat keras Intel core i7 3,4 GHz, DDR 3 4 GB,
+Hardisk 500 GB, VGA Geforce GT630 2GB, dengan menggunakan Sistem Operasi Windows 7, 1 unit komputer
+Presentasi dilengkapi Wacom Cintiq.
+Semua komputer di laboratorium ini menggunakan standar multimedia. Laboratorium ini juga dilengkapi dengan
+berbagai aplikasi multimedia antara lain Macromedia, Adobe CS 5 & 6, Corel Draw, 3DS Max, blender, motion
+builder, maya, cinema 4D. Semua komputer terhubung dengan LAN dengan kecepatan 1GBps dan juga terhubung
+jaringan internet dengan kecepatan sampai dengan 6 Mbps. Server menggunakan dual Processor Xeon 4core 2GHz
+dengan FB DIMM RAM 2 GB dan total harddisk 1,2 Terrabyte. Laboratorium ini juga dilengkapi fasilitas penunjang
+kenyamanan dalam proses praktikum antara lain wireless sound system, Presensi Elektronik, 4 Unit Camera
+CCTV, LCD Projector/Viewer, ruangan ber-AC. Laboratorium 11 terletak di gedung 2 lantai 3 Universitas AMIKOM
+Yogyakarta.
+l. Laboratorium Komputer Grafis (Lab. 12)
+Berkapasitas 80 orang, Laboratorium ini dilengkapi dengan perangkat keras Pentium Core I5, Memory 4 GB
+DDR3, VGA 2 GB DDR3, Hardisk 500 GB SATA3 dengan menggunakan Sistem Operasi Windows 7, LCD Monitor 17
+inch Widesreen. 1 unit Komputer Presentasi dan 1 unit Komputer presensi dengan magnetik card. Semua komputer
+di laboratorium ini menggunakan standar multimedia. Laboratorium ini juga dilengkapi dengan berbagai aplikasi
+multimedia antara lain Macromedia, Adobe, Corel Draw, 3DS Max, MAYA, Motion Builder dan Flash. Semua
+komputer terhubung dengan LAN dengan kecepatan 1 GBps dan terhubung jaringan internet dengan kecepatan
+sampai dengan 6 Mbps. Server menggunakan dual Processor Xeon 4 core 2GHz dengan FB DIMM RAM 2 GB dan total
+harddisk 1,2 Terrabyte. Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam proses praktikum
+antara lain wireless sound system, Presensi Elektronik, 4 Unit Camera CCTV, LCD Projector/Viewer, ruangan ber-AC.
+Kelengkapan lainnya berupa Speaker aktif, microphone untuk Audio recording. Lab ini dilengkapi digitizing media
+dengan kamera digital, scanner. Laboratorium 12 terletak di gedung 2 lantai 3 Universitas AMIKOM Yogyakarta.
+m. Laboratorium Jaringan Komputer (Lab. 13)
+Berkapasitas 80 orang dan dilengkapi perangkat keras dengan 80 unit sebagai client menggunakan Dell All in One
+Vostro 320 dan Insipiron One 2320, Pentium Dual Core E5500 2.80 GHz dan Core i3-2100 @ 3.10 Ghz, RAM DDR3
+4 Gb, Harddisk 500 Gb. dengan sistem operasi Windows 7 Ultimate. Laboratorium ini dilengkapi peralatan untuk
+membangun jaringan komputer seperti 12 unit Cisco Router 2800 series, 13 unit Catalyst 2960 series, 10 unit
+Mikrotik RB450G, Patch Panel dan Open rack. Sehingga praktikan dapat membangun jaringan komputer sendiri.
+Laboratorium ini juga dilengkapi dengan aplikasi pendukung praktikum seperti aplikasi untuk simulasi jaringan Cisco
+Packet Tracer, Wireshark, Winbox, IP Subnet Calculator, VMWare. Laboratorium ini terkoneksi internet dengan
+bandwidth sampai dengan 6 Mbps, Server dengan Prosesor Intel® Xeon® 5500 series, DDR3 RDIMM 8 GB, dilengkapi
+fasilitas penunjang kenyamanan dalam proses praktikum antara lain wireless sound system, Presensi elektronik, 4
+unit kamera CCTV, LCD Projector/viewer untuk membantu proses belajar mengajar, Onfinity CM2 MAX , dan ruangan
+yang ber-AC. Laboratorium 13 terletak di gedung 2 lantai 2 Universitas AMIKOM Yogyakarta.
+n. Laboratorium Pengembangan Animasi (Lab. 14)
+Berkapasitas 80 orang, Laboratorium ini dilengkapi dengan perangkat keras Apple iMac all-in-One dengan spesifikasi
+Layar 21,5” LED-backlit Glossy widescreen TFT dengan resolusi 1920 x 1080 px, Prosesor 2,7 Ghz Quad-core Intel
+i5 6MB on-chip shared L3 cache, Memory 2 keping 2 GB 1333 Mhz DDR3, Hardisk 500 GB dengan menggunakan
+Sistem Operasi Mac OS X Yosimite 10.10.4, VGA menggunakan AMD Radeon HD 6770M graphic processor 512 MB
+GDDR5, Facetime HD camera full native resolution up-to 30” display (2560 x1600 px), Built-in speaker 2 internal 17
+watt high-efficiency amplifiers, Keyboard Apple wireless, dan Apple magic mouse.
+Laboratorium ini juga dilengkapi 1 unit Komputer Presentasi Apple iMac layar 21,5” dengan resolusi 1920 x 1080
+px, Prosesor 2,7 Ghz Quad-core Intel i5 6MB on-chip shared L3 cache, Memory 2 keping 4 GB 1333 Mhz DDR3,
+Hardisk 1 TB Sistem Operasi Mac OS X Yosimite 10.10.4, VGA menggunakan intel iris 1512 MB GDDR5 dan 1 unit
+Komputer presensi dengan magnetik card. Laboratorium ini juga dilengkapi dengan berbagai aplikasi multimedia.
+Semua komputer terhubung dengan LAN dengan kecepatan 1 GBps dan juga terhubung jaringan internet dengan
+kecepatan sampai dengan 6 Mbps. Server menggunakan dual Processor Xeon 4 core 2GHz dengan FB DIMM RAM 2
+GB dan total harddisk 1,2 Terrabyte.
+Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam proses praktikum antara lain wireless
+sound system, Presensi Elektronik, 4 Unit Camera CCTV, LCD Projector/Viewer, 2 buah TV samsung 40 inch untuk
+tambahan visualisasi presentasi, Onfinity CM2 MAX dan ruangan ber-AC. Kelengkapan lainnya berupa Speaker aktif,
+microphone untuk Audio recording. Lab ini dilengkapi digitizing media dengan kamera digital, scanner, dan wacom
+digital pen. Lab ini menggunakan tata suara Dolby Surround 5.1 untuk preview multimedia project. Dilengkapi pula
+dengan galeri mahasiswa untuk menyimpan dan memajang hasil karya mahasiswa. Laboratorium 14 terletak di
+gedung 2 lantai 2 Universitas AMIKOM Yogyakarta.
+o. Laboratorium Visual Efek dan Broadcasting (Lab. 15)
+Laboratorium ini merupakan studio mini berkapasitas 40 orang. Digunakan untuk keperluan fotografi dan tempat
+pengambilan gambar video menggunakan layar biru (blue screen), layar hijau (green screen), dan beberapa pilihan
+warna yang lain. Laboratorium ini biasa digunakan untuk praktikum komputer grafis, multimedia, Broadcasting,
+serta pembuatan Visual Efek untuk pengerjaan Tugas Akhir atau Skripsi. Peralatan yang tersedia di Lab ini adalah
+Kamera DLSR Canon EOS 550D dan Canon EOS 650D dilengkapi Wide Lens EFS 10-22mm, Fixed Lens EF 50 mm,
+Multipurpose Lens 18 – 200mm, 70 – 300mm dan Lens Kit untuk digital fotografi dilengkapi dengan softbox dan
+boomlight. Kamera Sony HVR100P untuk videografi dan broadcasting dilengkapi dengan lighting. Untuk keperluan
+simulasi siaran langsung program televisi secara digital, disediakan 1 unit komputer Matrox System dan video mixer
+Rolland Ediroll v8. Laboratorium Green Screen terletak di gedung 6 lantai 2 Universitas AMIKOM Yogyakarta.
+p. Laboratorium Sistem Cerdas
+Lab berkapasitas 30 orang ini dilengkapi 30 komputer client dan 1 komputer presentasi. Spesifikasi pada laboratorium
+ini terdiri atas dua tipe, yaitu komputer dengan prosesor Intel i7 dan Intel i3. Komputer i7 950 @3.07 GHz dilengkapi
+dengan Mainboard Intel DX58SO2, Memori DDR3 4GB PC 10800, VGA PCIe GeForce GT430 1GB, Harddisk SATA
+Seagate 500GB 7200, Casing Enlight 500W, Monitor LCD LG 19”. Adapun spesifikasi komputer i3 540 @3.07GHz
+dilengkapi dengan Mainboard Intel DH55PJ, Memori DDR3 2GB PC10800, VGA PCIe GeForce GT210 1GB, Harddisk
+SATA Seagate 500GB 7200, Casing Enlight 500W, Monitor LCD LG 19”. Sebagai sarana penunjang kegiatan praktikum,
+Laboratorium dilengkapi jaringan LAN 1000 MBps yang terkoneksi internet, presensi elektronik dengan kartu
+magnetik, sound system, ruangan ber-AC, LCD viewer dan LCD projector. Laboratorium ini terletak di gedung 3 lantai
+2 Universitas AMIKOM Yogyakarta.
+q. Laboratorium Bahasa (Lab. 16)
+Laboratorium ini merupakan laboratorium bahasa yang dengan kapasitas 30 orang. Laboratorium ini dilengkapi
+dengan perangkat keras Intel Core 2 Duo, Memori 2 GB, VGA 512 MB dan terhubung dengan jaringan LAN dan
+internet. Laboratorium ini dilengkapi software wicomsmartlab. Lab ini digunakan untuk pelatihan bahasa, dan tes
+kemampuan bahasa. Laboratorium ini terletak di gedung 3 lantai 4 Universitas AMIKOM Yogyakarta.
+r. Laboratorium Multimedia Production (Lab. 17)
+Berkapasitas 30 orang, Laboratorium ini dilengkapi dengan perangkat keras Apple New iMac all-in-One dengan
+spesifikasi Layar 21,5”, Prosesor 2,9 Ghz Quad-core Intel i7 , Memory 8 GB DDR 3, Hardisk 1 TB dengan menggunakan
+Sistem Operasi Mac OS X Lion 10.7.3, VGA menggunakan NVIDIA GeFORCE 650 512 MB DDR5, Keyboard Apple
+wireless, dan Apple magic mouse. Laboratorium ini juga dilengkapi 1 unit Komputer Presentasi Apple iMac dan 1 unit
+Komputer presensi dengan magnetik card. Laboratorium ini juga dilengkapi dengan berbagai aplikasi multimedia.
+Semua komputer terhubung dengan LAN dengan kecepatan 1 GBps dan juga terhubung jaringan internet dengan
+kecepatan sampai dengan 6 Mbps. Laboratorium ini juga dilengkapi fasilitas penunjang kenyamanan dalam proses
+praktikum antara lain wireless sound system, Presensi Elektronik, 3 Unit Camera CCTV, LCD Projector dan ruangan
+ber-AC. Kelengkapan lainnya berupa Blue Ray player, Speaker Home Teater Sound 3D LG . Lab ini dilengkapi Wacom
+Intuos 5 digital pen. Laboratorium ini terletak di gedung 6 lantai 2 Universitas AMIKOM Yogyakarta.
+3. Resource Center
+Resource Center Universitas AMIKOM Yogyakarta merupakan perpustakaan dengan koleksi buku dan CD. Sebagai
+lembaga pendidikan tinggi memiliki komitmen penuh dalam mengembangkan ilmu pengetahuan. Buku merupakan
+sumber pemgetahuan yang menjadi sumber utama bagi pengembangan ilmu pengetahuan dan teknologi. Koleksi
+buku yang di miliki secara umum digolongkan menjadi dua, yaitu buku-buku yang digunakan untuk mendukung
+perkuliahan sehari-hari berupa buku diktat kuliah dan buku acuan untuk mahasiswa dan buku-buku referensi baik
+berbahasa indonesia maupun berbahasa asing yang digunakan dengan tujuan pengembangan ilmu dan teknologi.
+Di perpustakaan Universitas AMIKOM Yogyakarta ketersediaan buku dijaga ke mutakhirannya oleh karena itu setiap
+tahun kami datangkan buku-buku dari penerbit dalam negeri dan penerbit Internasional untuk melengkapi koleksi
+perpustakaan.
+Sebagai lembaga pendidikan tinggi dengan perkembangan ilmu yang sedemikian pesat maka usaha untuk
+menyerap secepat mungkin kemajuan di luar sangat penting. Dengan perkembangan yang sedemikian pesat maka
+usaha untuk menyerap secepat mungkin kemajuan di luar sangat penting. Koleksi buku dan CD yang dimiliki oleh
+perpustakaan Universitas AMIKOM Yogyakarta semakin tahun semakin bertambah. Resource Center Universitas
+AMIKOM Yogyakarta saat ini telah menerapkan sistem terkomputerisasi dan online dalam melayani kebutuhan
+civitas akademik di AMIKOM. Selain koleksi buku-buku dan CD perpustakaan Universitas AMIKOM Yogyakarta
+juga menyediakan koleksi Tugas akhir dan Skripsi mahasiswa, Majalah, Surat kabar, Jurnal Ilmiah AMIKOM, Jurnal
+Terakreditasi, Prosiding, Jurnal Online dan fasilitas komputer yang secara bebas digunakan oleh mahasiswa untuk
+proses belajarnya yang disambungkan dengan jaringan Internet. Ruang RC juga dilengkapi dengan fasilitas ruang
+minitheater dan ruang diskusi yang dapat digunakan mahasiswa. Foto Resource Center ditunjukan pada Gambar
+1.21.
+5. Ruang Pengajaran
+Ruang Pengajaran disediakan untuk koordinasi pelaksanaan kegiatan perkuliahan, juga disediakan bagi dosen yang
+menunggu jam mengajar serta dapat juga digunakan untuk ruang baca, konsultasi dan diskusi.
+6. Masjid
+Masjid disediakan untuk mahasiswa, karyawan dan dosen yang beragama Islam untuk beribadah.
+7. Aula dan Ruang Seminar
+Aula dan ruang seminar dilengkapi AC disediakan untuk kegiatan-kegiatan ilmiah.
+8. University Theater
+Merupakan ruang theater dengan fasilitas modern. Ruang cinema universitas amikom berkapasitas 250 orang
+dengan didukung 7.2 surround sistem. Dengan layar standar bioskop, ruang cinema amikom sering digunakan untuk
+presentasi hasil film dan acara visual lainnya. Ruang ini berfungsi untuk pelaksanaan general public lecture, preview
+film animasi produksi Universitas AMIKOM.
+9. Amikom Student Center
+Ruang ini adalah ruang yang digunakan untuk kegiatan Senat Mahasiswa, Himpunan Mahasiswa Jurusan, Unit
+Kegiatan Mahasiswa, dan Badan Eksekutif Mahasiswa.
+10. Swalayan, Fotocopy dan Kantin
+Swalayan menyediakan barang-barang kebutuhan mahasiswa, karyawan dan dosen dengan harga khusus.
+Universitas AMIKOM Yogyakarta melalui koperasi Citramas juga menyediakan fasilitas fotocopy dan kantin. Kantin
+menyediakan beraneka makanan dari pagi, siang hingga menjelang sore hari. Pada area kantin dilengkapi dengan
+fasilitas free wifi dan TV layar datar. Area ini merupakan area bebas rokok.
+11. Ruang Ujian Skripsi dan Tugas Akhir
+ Terdapat 5 ruang ujian skripsi dan tugas akhir yang dilengkapi AC
+12. HotSpot Area
+HotSpot Area disediakan untuk civitas akademika untuk mengakses internet secara gratis di dalam area lingkungan
+kampus, coverage area yang luas, koneksi internet yang cepat, otentifikasi sistem yang baik, membuat mahasiswa
+merasa aman dan nyaman selama surfing di internet.
+13. Fasilitas Olah Raga
+Fasilitas atau area untuk olah raga disediakan untuk civitas akademika, dapat berfungsi untuk lapangan basket,
+lapangan footsal, lapangan untuk latihan bela diri, dll.
+Selain sarana dan prasarana di atas, mahasiswa Universitas AMIKOM Yogyakarta juga diberikan fasilitas non fisik, yaitu:
+1. Subsidi Kesehatan
+Subsidi kesehatan ini bertujuan untuk memberikan bantuan dana perlindungan mahasiswa AMIKOM atas musibah
+kecelakaan, rawat inap, kematian sesuai dengan ketentuan yang berlaku. Syarat mengajukan klaim adalah
+mengambil formulir di Sekretariat Warek III.
+2. Perawatan Kesehatan / Poliklinik Umum dan Gigi
+Perawatan kesehatan untuk mahasiswa, dosen, karyawan dan seluruh civitas akademika disediakan oleh poliklinik.
+Setiap anggota civitas akademika berhak mendapatkan pelayanan kesehatan dengan standar tertentu sebagai
+salah satu fasilitas yang diberikan oleh Universitas AMIKOM Yogyakarta. Bagi mahasiswa yang akan memanfaatkan
+fasilitas ini cukup menunjukkan kartu mahasiswa Universitas AMIKOM Yogyakarta pada saat mendaftar di poliklinik
+untuk mendapatkan pelayanan kesehatan dengan standar tertentu.
+4. Beasiswa
+Beasiswa berasal dari Universitas AMIKOM Yogyakarta, pemerintah, dan instansi / Perusahaan Swasta.
+a. Beasiswa dari Universitas AMIKOM Yogyakarta
+Setiap semester Universitas AMIKOM Yogyakarta memberikan bantuan biaya pendidikan kepada mahasiswa.
+Adapun persyaratan untuk mendapatkan beasiswa tersebut adalah:
+1) Mahasiswa aktif
+2) Mengisi formulir dan menyerahkan syarat-syarat sesuai ketentuan yang disediakan oleh Wakil Rektor III
+3) Informasi lebih lanjut akan diumumkan kemudian
+b. Beasiswa dari Pemerintah
+1) Beasiswa Supersemar
+2) Beasiswa Bantuan Belajar Mahasiswa (BBBM)
+3) Beasiswa Peningkatan Prestasi Akademik (BPPA)
+4) Beasiswa Peningkatan Prestasi Ekstrakurikuler (PPE)
+5) Bantuan Khusus untuk Mahasiswa (BKM)
+6) Beasiswa Dismenpora
+7) Beasiswa PEMDA asal mahasiswa
+8) Beasiswa Bidikmisi
+c. Beasiswa dari Instansi / Perusahaan Swasta
+Beasiswa juga diberikan oleh instansi dan perusahaan yang bekerjasama dengan Universitas AMIKOM Yogyakarta.
+14. Pelayanan Melalui Internet
+Penggunaan internet di Universitas AMIKOM Yogyakarta telah dilakukan.
+Layanan tersebut tersedia di http://www.amikom.ac.id. Beberapa layanan yang saat ini tersedia, antara lain:
+a. Pendaftaran mahasiswa baru On-Line (pmb.amikom.ac.id)
+b. Tes Mahasiswa Baru On-Line
+c. Pengumuman penerimaan mahasiswa baru On-Line (pmb.amikom.ac.id)
+d. Pengisian Kartu Rencana Studi On-Line (krs.amikom.ac.id)
+e. Fasilitas Melihat Nilai On-Line (krs.amikom.ac.id)
+f. Perubahan Kartu Rencana Studi On-Line (krs.amikom.ac.id)
+g. Perpustakaan On-Line (diglib.amikom.ac.id)
+h. Account Email untuk mahasiswa (mail.amikom.ac.id)
+i. Materi Kuliah On-Line (elearning.amikom.ac.id)
+j. Alumni On-Line dan Bursa Kerja On-Line (alumni.amikom.ac.id)
+k. Presensi On-Line
+l. Jadwal On-Line (amikom.ac.id)
+m. Surat Keterangan Kuliah/ Active On-Line (skak.amikom.ac.id)
+n. Layanan wifi mahasiswa
+o. Blog untuk mahasiswa (blog.amikom.ac.id)
+p. Wisuda online (wisuda.amikom.ac.id)
+q. Pandiga
+r. e-learning (elearning.amikom.ac.id)
+s. Jurnal (journal.amikom.ac.id)
+t. Repository (repository.amikom.ac.id)
+u. Bimbingan online dan pendaftaran judul TA skripsi (bimbingan.amikom.ac.id)

@@ -1,30 +1,18 @@
 @extends('layouts.AdminApp')
 
 @section('content')
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tambah Data Post - SantriKoding.com</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body style="background: lightgray">
-
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
                         <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
-
                             @csrf
 
                             <div class="form-group">
                                 <label class="font-weight-bold">GAMBAR</label>
-                                <input type="file" class="form-control @error('image') is-invalid @enderror" name="image">
+                                <input type="file" class="form-control @error('image') is-invalid @enderror"
+                                    name="image">
 
                                 <!-- error message untuk image -->
                                 @error('image')
@@ -36,7 +24,8 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">JUDUL</label>
-                                <input type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('title') is-invalid @enderror"
+                                    name="title" value="{{ old('title') }}" placeholder="Masukkan Judul Post">
 
                                 <!-- error message untuk title -->
                                 @error('title')
@@ -49,15 +38,17 @@
                             <div class="form-group">
                                 <label class="font-weight-bold">EVENT</label>
                                 <div id="eventContainer">
-                                    @foreach($events as $index => $event)
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="event" id="event{{ $index }}" value="{{ $event }}">
-                                        <label class="form-check-label" for="event{{ $index }}">
-                                            {{ $event }}
-                                        </label>
-                                    </div>
+                                    @foreach ($events as $index => $event)
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="event"
+                                                id="event{{ $index }}" value="{{ $event }}">
+                                            <label class="form-check-label" for="event{{ $index }}">
+                                                {{ $event }}
+                                            </label>
+                                        </div>
                                     @endforeach
-                                    <button type="button" class="btn btn-sm btn-primary mt-2" id="addEvent">Tambah Event</button>
+                                    <button type="button" class="btn btn-sm btn-primary mt-2" id="addEvent">Tambah
+                                        Event</button>
                                 </div>
 
                                 <!-- error message untuk event -->
@@ -70,7 +61,8 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">KONTEN</label>
-                                <textarea class="form-control @error('content') is-invalid @enderror" name="content" rows="5" placeholder="Masukkan Konten Post">{{ old('content') }}</textarea>
+                                <textarea class="form-control @error('content') is-invalid @enderror" name="content" rows="5"
+                                    placeholder="Masukkan Konten Post" id="content">{{ old('content') }}</textarea>
 
                                 <!-- error message untuk content -->
                                 @error('content')
@@ -90,9 +82,9 @@
             </div>
         </div>
     </div>
-
     <!-- Modal for entering custom event name -->
-    <div class="modal fade" id="customEventModal" tabindex="-1" role="dialog" aria-labelledby="customEventModalLabel" aria-hidden="true">
+    <div class="modal fade" id="customEventModal" tabindex="-1" role="dialog" aria-labelledby="customEventModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -111,12 +103,11 @@
             </div>
         </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
     <script>
-        CKEDITOR.replace( 'content' );
+        CKEDITOR.replace('content');
         var eventCounter = {{ count($events) }};
 
         $(document).on('click', '#addEvent', function() {
@@ -143,9 +134,5 @@
                 $('#customEventName').val('');
             }
         });
-
     </script>
-</body>
-</html>
-
 @endsection

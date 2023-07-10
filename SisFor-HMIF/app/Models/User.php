@@ -10,6 +10,12 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
+
+    public function isAdmin()
+    {
+        return $this->role === 'admin';
+    }
+
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
@@ -42,4 +48,7 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+
 }

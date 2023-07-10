@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\PostController;
+use App\Http\Controllers\HomeControllerUsers;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,13 +19,16 @@ use App\Http\Controllers\Admin\PostController;
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeControllerUsers::class, 'index'])->name('home');
-Route::get('/home', [App\Http\Controllers\HomeControllerUsers::class, 'index'])->name('home');
-Route::get('/adminHM', [App\Http\Controllers\HomeControllerAdmin::class, 'index'])->name('homeAdmin');
+
+Route::get('/', [HomeControllerUsers::class, 'index'])->name('home')->withoutMiddleware(['auth']);
+Route::get('/', [PostController::class, 'indexUser'])->name('home');
+Route::get('/home', [HomeControllerUsers::class, 'index'])->name('home')->middleware('auth');
+
+Route::middleware(['auth', 'admin'])->get('/adminHM', [App\Http\Controllers\HomeControllerAdmin::class, 'index'])->name('homeAdmin');
 
 Route::get('/admin/users', [UserController::class, 'index'])->name('userList');
 
-Route::middleware(['auth'])->prefix('admin')->group(function () {
+Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
     Route::get('/berita', [PostController::class, 'index'])->name('posts.index');
     Route::get('/berita/create', [PostController::class, 'create'])->name('posts.create');
     Route::post('/berita', [PostController::class, 'store'])->name('posts.store');

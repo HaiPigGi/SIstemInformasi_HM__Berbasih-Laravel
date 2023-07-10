@@ -33,6 +33,15 @@ class PostController extends Controller
         return view('admin.posts.index', compact('posts'));
     }
 
+    public function indexUser()
+{
+    $posts = Post::latest()->paginate(5);
+
+    return view('NAuth.home', compact('posts'));
+}
+
+
+
     /**
      * Store a newly created resource in storage.
      *

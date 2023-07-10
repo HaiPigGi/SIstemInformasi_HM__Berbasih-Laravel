@@ -1,0 +1,665 @@
+
+/* Navbar */
+  .navbar {
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #ffffff !important;
+  }
+
+  .nav-bot {
+    background-color: #4e4e4e;
+    margin-top: -40px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+#NavColor {
+    background-color: #FFD6A5;
+}
+@font-face {
+    font-family: "Akira-Expanded";
+    src: url("/fonts/Akira-Expanded-Demo.otf") format("otf");
+}
+
+.text-primary {
+    color: #7a3081 !important;
+}
+
+.text-secondary {
+    color: #ff971e !important;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+.body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#kel12 {
+    background-color: #eee;
+}
+
+.judul,
+h4 {
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #f0912b, #f0912b);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 3px;
+    transition: background-size .5s ease;
+    text-transform: uppercase;
+    vertical-align: top;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.judul,
+h4:hover {
+    background-size: 100% 3px;
+}
+
+.judul,
+h4:hover:after {
+    background-size: 50% 3px;
+}
+
+.all {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    max-height: 460px;
+    margin-top: 20px;
+    overflow: hidden;
+
+    /* set transisi */
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    transition: max-heigt 0.5;
+
+}
+
+.open {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-height: 1000px;
+    /* set transisi */
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    transition: max-heigt 0.5;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/hm/Gambar\ WhatsApp\ 2023-07-07\ pukul\ 12.22.10.jpg);
+    background-size: cover;
+    height: 396px;
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.jumbotron .display-4 {
+    font-size: 40px;
+    font-family: "akira expanded", sans-serif;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* .jumbotron .container h1 {
+position:relative;
+top: 50%;
+left: 129%;
+transform: translate(-100%, -100%);
+} */
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info h1, .info h3 {
+font-weight: bold;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#selamatD {
+    font-family: Akira-Expanded, sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 81px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    /* top: 50%;
+left: 129%;
+transform: translate(-100%, -100%); */
+
+}
+
+/* #selamatD span{
+position:relative;
+top: 50%;
+left: 129%;
+transform: translate(-100%, -100%);
+} */
+
+.isi1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    background-color: #2C3333;
+    color: white;
+    font-family: "Futura Bk BT", sans-serif;
+    overflow: hidden;
+}
+
+#subtitle span {
+    font-family: "Futura Md BT", sans-serif;
+    font-weight: 600;
+}
+
+#subtitle {
+    font-size: 40px;
+    width: 400px;
+}
+
+.col-9 p {
+    text-align: justify;
+    width: 500px;
+    font-family: "futura Bk BT", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.jumbotron-side .display-4 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron-side .container {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.jumbotron-side {
+    background-image: url(img/bg-all.jpg);
+    background-size: cover;
+    height: 296px;
+    position: relative;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron-side::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+}
+
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    position: absolute;
+    bottom: 0;
+
+}
+
+#subtitle span {
+    font-family: "Futura Md BT", sans-serif;
+    font-weight: 600;
+}
+
+#subtitle {
+    font-size: 40px;
+    width: 400px;
+}
+
+/* Button */
+.tombol {
+    background-color: #ff971e;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tombol-al {
+    background-color: #ff971e;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+.show-more,
+.buka-semua {
+    color: white !important;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 0;
+    float: right;
+}
+
+.tombol:hover {
+    color: #fff;
+}
+
+.tombol-al:hover {
+    color: #fff;
+}
+
+/* Berita */
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: rgba(122, 48, 129, 0.741);
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(255, 150, 30, 0.741);
+}
+
+.hnews {
+    min-height: 199px;
+}
+
+.hnews img {
+    object-fit: cover;
+    min-height: inherit;
+}
+
+.berita {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+/* Agenda */
+.agenda {
+    background-color: #414141;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.section-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title span {
+    border-bottom: 4px solid #f0912b;
+    padding-bottom: 5px;
+}
+
+/* Info */
+.info {
+    background-image: url(../img/hm/pap.png);
+    min-height: 500px;
+    position: relative;
+    opacity: 0.90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#info {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#info-1 {
+    background-color: transparent;
+    color: #dfdfdf;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+
+.footer-body {
+    padding: 48px 0;
+    /* margin-top: 10px; */
+    background-color: #27374D;
+    color: #fff;
+}
+
+.footer-brand {
+    width: 79px;
+    height: 82px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #f0912b;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.alamat {
+    padding-top: 40px;
+    line-height: 1;
+}
+
+.alamat h6,
+p {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    background-color: #526D82;
+    color: #fff;
+    padding-top: 5px;
+}
+
+/* Profil */
+#konten {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.list-profil li {
+    border-left: 0 none;
+    border-right: 0 none;
+}
+
+.menu .list-group-item a {
+    color: #7a3081;
+}
+
+.menu .list-group-item a:hover {
+    color: #f0912b;
+}
+
+i {
+    color: #5e5e5e;
+}
+
+.link-profil a {
+    color: #7a3081;
+}
+
+.foto-rektor,
+.foto-labs {
+    float: left;
+    margin: .5em 1em 1em 0;
+}
+
+.kata-pengantar,
+figcaption {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    color: #6e7174;
+    text-align: center;
+    font-size: 13px;
+}
+
+.isi-kata-pengantar,
+.isi-sejarah,
+.isi-organisasi,
+.isi-berita p {
+    text-align: justify;
+}
+
+/* Prodi */
+.prodi i {
+    color: #7a3081;
+    font-size: 40px;
+    position: absolute;
+}
+
+.prodi-text {
+    padding-left: 60px;
+}
+
+.prodi a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+.prodi {
+    padding: 5px;
+}
+
+.prodi a:hover {
+    color: #f0912b;
+}
+
+.prodi p {
+    color: #6e7174;
+}
+
+/* Sarana & Prasarana */
+.test {
+    padding-top: 40px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.horizontal-scroll {
+    padding-top: 40px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.content-scroll {
+    max-width: 30%;
+    min-width: 360px;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    flex-basis: 40%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border: 0;
+    text-align: center;
+}
+
+
+/* organisasi */
+#more {
+    text-decoration: none;
+    color: #707070;
+}
+
+#more:hover {
+    color: #f0912b;
+}
+
+/* Arsip Berita */
+
+.img-responsive {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: none;
+}
+
+#content p {
+    line-height: 1.3em;
+    font-weight: 300;
+    margin: 0 0 11px;
+    letter-spacing: .3px;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.pagination a.active {
+    background-color: #7a3081;
+    color: white;
+}
+
+.pagination a {
+    color: #7a3081;
+}
+
+.pagination a:hover:not(.active) {
+    color: #7a3081;
+}
+
+.judul-sidebar {
+    background-color: #7a3081;
+    border-left: solid 5px #f0912b;
+    border-right: solid 5px #f0912b;
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sb-1 {
+    padding-top: .25rem !important;
+    padding-bottom: .25rem !important;
+
+}
+
+.sb-3 {
+    padding: .5rem;
+}
+.card {
+margin: 10px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+    .navbar-brand {
+        color: white !important;
+    }
+
+    .nav-top .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #f0912b;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -85px;
+        height: 496px;
+
+    }
+}
+
+/* MOBILE VERSION */
+@media (max-width: 991px) {
+    .nav-top {
+        background-color: #7a3081;
+    }
+
+    .content-scroll .card-body {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #info {
+        top: 0%;
+    }
+}
+
+@media (max-width: 575px) {
+    .card-deck {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hnews {
+        min-height: 260px;
+    }
+
+    .hnews img {
+        object-fit: cover;
+        min-height: inherit;
+    }
+
+    .card-deck {
+        margin-left: 30px;
+    }
+}
