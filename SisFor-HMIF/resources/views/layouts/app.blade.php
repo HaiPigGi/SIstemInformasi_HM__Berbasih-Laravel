@@ -46,7 +46,7 @@
                 <!-- Authentication Links -->
                 <a class="nav-item nav-link active" href="{{ url('/') }}">Home <span
                         class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="{{ url('/profil') }}">Kepengurusan</a>
+                <a class="nav-item nav-link" href="{{ url('/kepengurusan') }}">Kepengurusan</a>
                 <a class="nav-item nav-link" href="{{ url('/organisasi') }}">Event</a>
                 <a class="nav-item nav-link" href="{{ url('/prodi') }}">Aspirasi</a>
                 @guest

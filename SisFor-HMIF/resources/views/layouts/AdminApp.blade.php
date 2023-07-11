@@ -47,7 +47,10 @@
                             <a class="nav-link" href="{{ route('userList') }}">{{ __('User List') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('posts.index') }}">{{ __('Post Berita') }}</a>
+                            <a class="nav-link" href="{{ route('posts.index') }}">{{ __('Berita') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('Kepengurusan.index') }}">{{ __('Kepengurusan') }}</a>
                         </li>
                     </ul>
 

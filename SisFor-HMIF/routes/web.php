@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\HomeControllerUsers;
+use App\Http\Controllers\HomeControllerKepengurusan;
+use App\Http\Controllers\Admin\KepengurusanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +26,8 @@ Route::get('/', [HomeControllerUsers::class, 'index'])->name('home')->withoutMid
 Route::get('/', [PostController::class, 'indexUser'])->name('home');
 Route::get('/home', [HomeControllerUsers::class, 'index'])->name('home')->middleware('auth');
 
+Route::get('/kepengurusan', [HomeControllerKepengurusan::class, 'index'])->name('home')->withoutMiddleware(['auth']);
+
 Route::middleware(['auth', 'admin'])->get('/adminHM', [App\Http\Controllers\HomeControllerAdmin::class, 'index'])->name('homeAdmin');
 
 Route::get('/admin/users', [UserController::class, 'index'])->name('userList');
@@ -35,6 +39,13 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
     Route::get('/berita/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
     Route::put('/berita/{post}', [PostController::class, 'update'])->name('posts.update');
     Route::delete('/berita/{post}', [PostController::class, 'destroy'])->name('posts.destroy');
+
+    Route::get('/kepengurusan', [KepengurusanController::class, 'index'])->name('Kepengurusan.index');
+    Route::get('/kepengurusan/create', [KepengurusanController::class, 'create'])->name('kepengurusan.create');
+    Route::post('/kepengurusan', [KepengurusanController::class, 'store'])->name('kepengurusan.store');
+    Route::get('/kepengurusan/{kepengurusan}/edit', [KepengurusanController::class, 'edit'])->name('kepengurusan.edit');
+    Route::put('/kepengurusan/{kepengurusan}', [KepengurusanController::class, 'update'])->name('kepengurusan.update');
+    Route::delete('/kepengurusan/{kepengurusan}', [KepengurusanController::class, 'destroy'])->name('kepengurusan.destroy');
 });
 
 Route::get('/logout', function () {
@@ -52,5 +63,3 @@ Route::get('/register-success', function () {
 });
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeControllerUsers::class, 'index'])->name('home');
