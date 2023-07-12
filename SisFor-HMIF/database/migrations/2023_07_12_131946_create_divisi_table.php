@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateKepengurusanTable extends Migration
+class CreateDivisiTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,10 @@ class CreateKepengurusanTable extends Migration
      */
     public function up()
     {
-        Schema::create('kepengurusan', function (Blueprint $table) {
+        Schema::create('divisi', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->text('divisi');
-            $table->text('jabatan');
-            $table->text('periode');
             $table->string('image');
-            $table->text('judul');
             $table->timestamps();
         });
     }
@@ -32,6 +28,6 @@ class CreateKepengurusanTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('kepengurusan');
+        Schema::dropIfExists('divisi');
     }
 }

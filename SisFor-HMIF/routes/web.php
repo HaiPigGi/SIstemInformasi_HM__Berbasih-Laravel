@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\HomeControllerUsers;
 use App\Http\Controllers\HomeControllerKepengurusan;
 use App\Http\Controllers\Admin\KepengurusanController;
+use App\Http\Controllers\Admin\DivisiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,7 @@ Route::get('/', [PostController::class, 'indexUser'])->name('home');
 Route::get('/home', [HomeControllerUsers::class, 'index'])->name('home')->middleware('auth');
 
 Route::get('/kepengurusan', [HomeControllerKepengurusan::class, 'index'])->name('home')->withoutMiddleware(['auth']);
-
+Route::get('/kepengurusan', [KepengurusanController::class, 'indexUser'])->name('home')->withoutMiddleware(['auth']);
 Route::middleware(['auth', 'admin'])->get('/adminHM', [App\Http\Controllers\HomeControllerAdmin::class, 'index'])->name('homeAdmin');
 
 Route::get('/admin/users', [UserController::class, 'index'])->name('userList');
@@ -40,13 +41,21 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
     Route::put('/berita/{post}', [PostController::class, 'update'])->name('posts.update');
     Route::delete('/berita/{post}', [PostController::class, 'destroy'])->name('posts.destroy');
 
-    Route::get('/kepengurusan', [KepengurusanController::class, 'index'])->name('Kepengurusan.index');
+    Route::get('/kepengurusan', [KepengurusanController::class, 'index'])->name('kepengurusan.index');
     Route::get('/kepengurusan/create', [KepengurusanController::class, 'create'])->name('kepengurusan.create');
     Route::post('/kepengurusan', [KepengurusanController::class, 'store'])->name('kepengurusan.store');
     Route::get('/kepengurusan/{kepengurusan}/edit', [KepengurusanController::class, 'edit'])->name('kepengurusan.edit');
     Route::put('/kepengurusan/{kepengurusan}', [KepengurusanController::class, 'update'])->name('kepengurusan.update');
     Route::delete('/kepengurusan/{kepengurusan}', [KepengurusanController::class, 'destroy'])->name('kepengurusan.destroy');
+
+    Route::get('/divisi', [divisiController::class, 'index'])->name('divisi.index');
+    Route::get('/divisi/create', [divisiController::class, 'create'])->name('divisi.create');
+    Route::post('/divisi', [divisiController::class, 'store'])->name('divisi.store');
+    Route::get('/divisi/{divisi}/edit', [divisiController::class, 'edit'])->name('divisi.edit');
+    Route::put('/divisi/{divisi}', [divisiController::class, 'update'])->name('divisi.update');
+    Route::delete('/divisi/{divisi}', [divisiController::class, 'destroy'])->name('divisi.destroy');
 });
+
 
 Route::get('/logout', function () {
     Auth::logout();

@@ -50,7 +50,10 @@
                             <a class="nav-link" href="{{ route('posts.index') }}">{{ __('Berita') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('Kepengurusan.index') }}">{{ __('Kepengurusan') }}</a>
+                            <a class="nav-link" href="{{ route('kepengurusan.index') }}">{{ __('Kepengurusan') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('divisi.index') }}">{{ __('Divisi') }}</a>
                         </li>
                     </ul>
 

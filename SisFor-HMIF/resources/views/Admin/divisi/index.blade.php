@@ -19,32 +19,25 @@
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">
                     <div class="card-body">
-                        <a href="{{ route('kepengurusan.create') }}" class="btn btn-md btn-success mb-3">TAMBAH POST</a>
+                        <a href="{{ route('divisi.create') }}" class="btn btn-md btn-success mb-3">TAMBAH POST</a>
                         <table class="table table-bordered">
                             <thead>
                               <tr>
                                   <th scope="col">Image</th>
                                 <th scope="col">Nama</th>
                                 <th scope="col">Divisi</th>
-                                <th scope="col">Jabatan</th>
-                                <th scope="col">Periode</th>
-                                <th scope="col">Judul</th>
                               </tr>
                             </thead>
                             <tbody>
                               @forelse ($posts as $post)
                                 <tr>
                                     <td class="text-center">
-                                        <img src="{{ asset('storage/kepengurusan/'.$post->image) }}" class="rounded" style="width: 150px">
+                                        <img src="{{ asset('storage/divisi/'.$post->image) }}" class="rounded" style="width: 150px">
                                     </td>
                                     <td>{{ $post->nama }}</td>
-                                    <td>{!! $post->divisi !!}</td>
-                                    <td>{{ $post->jabatan }}</td>
-                                    <td>{{ $post->periode }}</td>
-                                    <td>{{ $post->judul }}</td>
                                     <td class="text-center">
-                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('kepengurusan.destroy', $post->id) }}" method="POST">
-                                            <a href="{{ route('kepengurusan.edit', $post->id) }}" class="btn btn-sm btn-primary">EDIT</a>
+                                        <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('divisi.destroy', $post->id) }}" method="POST">
+                                            <a href="{{ route('divisi.edit', $post->id) }}" class="btn btn-sm btn-primary">EDIT</a>
                                             @csrf
                                             @method('DELETE')
                                             <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
