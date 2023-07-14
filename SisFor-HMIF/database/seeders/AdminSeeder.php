@@ -18,7 +18,6 @@ class AdminSeeder extends Seeder
             'name' => 'hmif21',
             'email' => 'hmif21@gmail.com',
             'password' => Hash::make('admin'),
-            'telepon' => '089856472387',
             'role' => 'admin', // Set the role to "admin"
             'created_at' => now(),
             'updated_at' => now(),

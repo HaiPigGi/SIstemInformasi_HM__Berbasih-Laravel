@@ -6,6 +6,7 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
@@ -34,11 +35,16 @@ class PostController extends Controller
     }
 
     public function indexUser()
-{
-    $posts = Post::latest()->paginate(5);
+    {
+        $posts = Post::latest()->paginate(5);
 
-    return view('NAuth.home', compact('posts'));
-}
+        // Memperbarui konten setiap posting agar tidak lebih dari 100 kata
+        foreach ($posts as $post) {
+            $post->content = Str::limit(strip_tags($post->content), 10000);
+        }
+
+        return view('NAuth.home', compact('posts'));
+    }
 
 
 

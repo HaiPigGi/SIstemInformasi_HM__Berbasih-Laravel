@@ -8,6 +8,7 @@ use App\Http\Controllers\HomeControllerUsers;
 use App\Http\Controllers\HomeControllerKepengurusan;
 use App\Http\Controllers\Admin\KepengurusanController;
 use App\Http\Controllers\Admin\DivisiController;
+use App\Http\Controllers\Auth\GoogleController; // Tambahkan ini
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,8 @@ use App\Http\Controllers\Admin\DivisiController;
 
 Auth::routes();
 
+Route::get('login/google', [App\Http\Controllers\Auth\GoogleController::class, 'redirectToGoogle'])->name('google.login');
+Route::get('login/google/callback', [App\Http\Controllers\Auth\GoogleController::class, 'handleGoogleCallback']);
 
 Route::get('/', [HomeControllerUsers::class, 'index'])->name('home')->withoutMiddleware(['auth']);
 Route::get('/', [PostController::class, 'indexUser'])->name('home');

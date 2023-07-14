@@ -12,10 +12,10 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
+            $table->string('google_id')->nullable();
             $table->string('name')->unique();
             $table->string('email')->unique();
-            $table->string('password');
-            $table->string('telepon')->unique();
+            $table->string('password')->nullable();
             $table->string('role')->default('user'); // Mengubah tipe kolom menjadi string dan set default role menjadi 'user'
             $table->rememberToken();
             $table->timestamps();

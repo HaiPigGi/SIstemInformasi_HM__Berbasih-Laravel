@@ -1977,3 +1977,15 @@ button.next-gallery img:hover, button.before-gallery img:hover{
   }
 }
 
+#divisi-more-container {
+    display: none; /* Mulai dengan menyembunyikan kontainer item-item di bawah */
+  }
+
+  #divisi-more-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .structure-card-division {
+    width: 33.33%; /* Menyesuaikan lebar item dengan tiga item pertama */
+  }

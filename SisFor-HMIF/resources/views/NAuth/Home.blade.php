@@ -101,9 +101,8 @@
 
                     <div class="row mb-2">
                         <div class="col-md-6">
-                            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-                                <img class="card-img-left flex-auto d-none d-lg-block" src="img/brt/brt2.jpg"
-                                    alt="Card image cap">
+                            <div class="card flex-md-row mb-4 shadow-sm">
+                                <img class="card-img-left flex-auto d-none d-lg-block img-fluid" src="img/brt/sdr.jpg" alt="Card image cap">
                                 <div class="card-body d-flex flex-column align-items-start">
                                     <h5 class="mb-0">
                                         <a class="text-dark" href="#"></a>
@@ -116,14 +115,12 @@
 
                         <div class="col-md-6">
                             <div class="card flex-md-row mb-4 shadow-sm">
-                                <img class="card-img-left flex-auto d-none d-lg-block" src="img/brt/brt3.jpg"
-                                    alt="Card image cap">
+                                <img class="card-img-left flex-auto d-none d-lg-block img-fluid" src="img/brt/sdr.jpg" alt="Card image cap">
                                 <div class="card-body d-flex flex-column align-items-start">
                                     <h5 class="mb-0">
                                         <a class="text-dark" href="#"></a>
                                     </h5>
-                                    <div class="mb-1 text-muted">
-                                    </div>
+                                    <div class="mb-1 text-muted"></div>
                                     <p class="card-text mb-auto"></p>
                                 </div>
                             </div>
@@ -134,8 +131,7 @@
                 <div class="row mb-2 justify-content-between">
                     <div class="col-md-6">
                         <div class="card flex-md-row mb-4 shadow-sm">
-                            <img class="card-img-left flex-auto d-none d-lg-block" src="img/brt/brt4.jpg"
-                                alt="Card image cap">
+                            <img class="card-img-left flex-auto d-none d-lg-block img-fluid" src="img/brt/sdr.jpg" alt="Card image cap">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h5 class="mb-0">
                                     <a class="text-dark" href="#"></a>
@@ -147,8 +143,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card flex-md-row mb-4 shadow-sm">
-                            <img class="card-img-left flex-auto d-none d-lg-block" src="img/brt/brt5.jpg"
-                                alt="Card image cap">
+                            <img class="card-img-left flex-auto d-none d-lg-block img-fluid" src="img/brt/sdr.jpg" alt="Card image cap">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h5 class="mb-0">
                                     <a class="text-dark" href="#"></a>
@@ -158,6 +153,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -172,16 +168,20 @@
             @isset($posts)
                 @foreach ($posts as $post)
                     <div class="card col-md-4 mb-4 shadow-sm" style="margin: 10px;">
-                        <div class="card-body text-center">
-                            <h5 class="card-title"><a href="#" class="text-primary">{{ $post->title }}</a></h5>
-                            <p class="card-text">{!! $post->content !!}</p>
-                        </div>
                         <img class="card-img-top mx-auto d-block" src="{{ asset('storage/posts/' . $post->image) }}"
                             alt="Card image cap">
+                        <div class="card-body text-center mt-3">
+                            <h5 class="card-title"><a href="#" class="text-primary">{{ $post->title }}</a></h5>
+                            <p class="card-text">
+                                {{ Str::limit(strip_tags($post->content), 1000) }}
+                            </p>
+                        </div>
                     </div>
                 @endforeach
             @endisset
         </div>
+
+
         <!-- Akhir Agenda -->
 
 

@@ -38,51 +38,65 @@
                     <span class="br">{{ $posts->first()->judul }}</span>
                 </h2>
             </div>
-                <div class="org-structure-item">
-                    <div class="title">Pengurus Inti</div>
-                    <div class="org-structure-wrapper">
-                        @forelse ($posts as $post)
-                            @if ($post->divisi == 'Pengurus Inti')
-                                <div class="structure-card">
-                                    <img src="{{ asset('storage/kepengurusan/'.$post->image) }}" alt="">
-                                    <h3>{{ $post->nama }}</h3>
-                                    <p>{{ $post->jabatan }}</p>
-                                </div>
-                            @endif
-                        @empty
-                            <p>Tidak ada pengurus inti.</p>
-                        @endforelse
-                    </div>
-                </div>
-                <div class="org-structure-item">
-                    <div class="title">Kepala Departement</div>
-                    <div class="org-structure-wrapper">
-                        @forelse ($posts as $post)
-                            @if ($post->divisi == 'Kepala Departement')
-                                <div class="structure-card">
-                                    <img src="{{ asset('storage/kepengurusan/'.$post->image) }}" alt="">
-                                    <h3>{{ $post->nama }}</h3>
-                                    <p>{{ $post->jabatan }}</p>
-                                </div>
-                            @endif
-                        @empty
-                            <p>Tidak ada kepala departemen.</p>
-                        @endforelse
-                    </div>
-                </div>
             <div class="org-structure-item">
-                <div class="title">Divisi</div>
+                <div class="title">Pengurus Inti</div>
                 <div class="org-structure-wrapper">
-                    @forelse ($divisions as $division)
-                        <div class="structure-card structure-card-division" onclick="location='divisi.html#divisi-pemda'">
-                            <img src="{{ asset('storage/divisi/' . $division->image) }}" alt="">
-                            <h3>{{ $division->nama }}</h3>
-                        </div>
+                    @forelse ($posts as $post)
+                        @if ($post->divisi == 'Pengurus Inti')
+                            <div class="structure-card">
+                                <img src="{{ asset('storage/kepengurusan/' . $post->image) }}" alt="">
+                                <h3>{{ $post->nama }}</h3>
+                                <p>{{ $post->jabatan }}</p>
+                            </div>
+                        @endif
                     @empty
-                        <p>Tidak ada divisi.</p>
+                        <p>Tidak ada pengurus inti.</p>
                     @endforelse
                 </div>
             </div>
+            <div class="org-structure-item">
+                <div class="title">Kepala Departement</div>
+                <div class="org-structure-wrapper">
+                    @forelse ($posts as $post)
+                        @if ($post->divisi == 'Kepala Departement')
+                            <div class="structure-card">
+                                <img src="{{ asset('storage/kepengurusan/' . $post->image) }}" alt="">
+                                <h3>{{ $post->nama }}</h3>
+                                <p>{{ $post->jabatan }}</p>
+                            </div>
+                        @endif
+                    @empty
+                        <p>Tidak ada kepala departemen.</p>
+                    @endforelse
+                </div>
+            </div>
+            <div class="org-structure-item">
+                <div class="title">Divisi</div>
+                <div class="org-structure-wrapper">
+                    @php
+                        $counter = 0;
+                    @endphp
+
+                    @forelse ($divisions as $division)
+                        @if ($counter < 5)
+                            <div class="structure-card structure-card-division">
+                                <img src="{{ asset('storage/divisi/' . $division->image) }}" alt="">
+                                <h3>{{ $division->nama }}</h3>
+                            </div>
+                            @php
+                                $counter++;
+                            @endphp
+                        @else
+                            @break
+                        @endif
+                    @empty
+                        <p>Tidak ada divisi.</p>
+                    @endforelse
+                    <!-- Lanjutkan dengan kode lain yang diinginkan -->
+                </div>
+            </div>
+
+
 
         </section>
         <footer>

@@ -9,7 +9,6 @@
                 <tr>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Telephone</th>
                 </tr>
             </thead>
             <tbody>
@@ -17,7 +16,6 @@
                     <tr>
                         <td>{{ $user->name }}</td>
                         <td>{{ $user->email }}</td>
-                        <td>{{ $user->telepon }}</td>
                     </tr>
                 @endforeach
             </tbody>

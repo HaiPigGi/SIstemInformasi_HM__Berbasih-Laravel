@@ -3,21 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSRF Token -->
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+<title>{{ config('app.name', 'HMIF') }}</title>
 
-    <title>{{ config('app.name', 'HMIF') }}</title>
+<!-- Scripts -->
+<script src="{{ asset('js/app.js') }}" defer></script>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+<!-- Fonts -->
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<!-- Styles -->
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -26,7 +25,6 @@
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-
                         <div class="text-center mb-4">
                             <a href="{{ url('/') }}">
                                 <img class="mb-4" src="{{ asset('img/hm/Logo HMIF.jpg') }}" alt="" width="200"
@@ -74,18 +72,19 @@
                                 {{ __('Login') }}
                             </button>
                             <br>
-                            @if (Route::has('register'))
-                                <a class="btn btn-link" href="{{ route('register') }}">
-                                    {{ __('Register') }}
+                            <div class="mb-0 text-center">
+                                <a href="{{ route('google.login') }}" class="btn btn-google btn-lg mb-3">
+                                    <img src="{{ asset('img/google.jpg') }}" alt="Google Icon" class="google-icon">
+                                    <span class="google-button-text">{{ __('Google') }}</span>
                                 </a>
-                            @endif
+                            </div>
                         </div>
+
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
     <style>
         body {
             background-image: url(img/hm/projek\ Organisasi.png);
@@ -151,7 +150,23 @@
         }
 
         .btn-google {
-            background-color: #a84fb0;
+            background-color: #4285F4;
+            color: #fff;
+            height: 50px;
+            width: 200px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .google-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .google-button-text {
+            vertical-align: middle;
         }
 
         @media (max-width: 400px) {
