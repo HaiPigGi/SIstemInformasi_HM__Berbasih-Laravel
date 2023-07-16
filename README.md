@@ -28,23 +28,31 @@ Berikut adalah langkah-langkah untuk menjalankan proyek Sistem Informasi HM Berb
     DB_DATABASE=nama_database
     DB_USERNAME=nama_pengguna
     DB_PASSWORD=kata_sandi
-7. Jalankan perintah berikut untuk menginstal dependensi proyek melalui Composer.
+
+7. Buatlah proyek di Google Cloud Console dan aktifkan Google API untuk otentikasi menggunakan Google. Dapatkan Client ID dan Client Secret dari proyek tersebut.
+8. Tambahkan Client ID dan Client Secret ke dalam file `.env`:
+ ```
+GOOGLE_CLIENT_ID=client_id_anda
+GOOGLE_CLIENT_SECRET=client_secret_anda
+GOOGLE_REDIRECT_URI=http://localhost:8000/auth/google/callback 
+ ```
+10. Jalankan perintah berikut untuk menginstal dependensi proyek melalui Composer.
  ```
 "composer install"
  ```
-8. Generate kunci aplikasi Laravel.
+10. Generate kunci aplikasi Laravel.
  ```
 "php artisan key:generate"
  ```
-9. Jalankan migrasi database untuk membuat skema tabel.
+11. Jalankan migrasi database untuk membuat skema tabel.
  ```
 "php artisan migrate"
  ```
-10. Jalankan server pengembangan Laravel.
+12. Jalankan server pengembangan Laravel.
  ```
  php artisan serve
  ```
-11. Buka browser dan akses `http://localhost:8000` untuk melihat proyek Sistem Informasi HM Berbasis Laravel dalam mode pengembangan.
+13. Buka browser dan akses `http://localhost:8000` untuk melihat proyek Sistem Informasi HM Berbasis Laravel dalam mode pengembangan.
 
 Pastikan Anda telah mengikuti semua langkah dengan benar untuk memastikan proyek dapat berjalan dengan lancar di sistem lokal Anda.
 
@@ -63,7 +71,7 @@ Kami sangat menghargai kontribusi Anda!
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, silakan hubungi kami melalui email: [email protected]
+Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, silakan hubungi kami melalui email: [leonardobryan32@gmail.com]
 
 Terima kasih telah menggunakan Sistem Informasi HM Berbasis Laravel!
 
