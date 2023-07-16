@@ -28,6 +28,7 @@ class User extends Authenticatable
         'email',
         'password',
         'google_id',
+        'avatar', // Add the 'avatar' attribute to the fillable array
     ];
 
     /**
@@ -48,6 +49,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+    public function getRouteKeyName()
+    {
+        return 'id'; // Replace 'id' with the actual column name representing the user identifier in the URL
+    }
+
+
 
 
 

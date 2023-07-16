@@ -12,13 +12,9 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-LONG_UNIQUE_HASH" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-LONG_UNIQUE_HASH" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-LONG_UNIQUE_HASH" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-LONG_UNIQUE_HASH" crossorigin="anonymous"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
-
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -26,7 +22,6 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
 </head>
 
@@ -34,8 +29,7 @@
     <div id="app">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark nav-top navbar-shrink">
-            <a class="navbar-brand" href="{{ url('/') }}"><img width="200px"
-                    src="{{ asset('img/hm/logo_usd.png') }}" alt="logo"></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><img width="200px" src="{{ asset('img/hm/logo_usd.png') }}" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,8 +38,7 @@
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ms-auto">
                 <!-- Authentication Links -->
-                <a class="nav-item nav-link active" href="{{ url('/') }}">Home <span
-                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="{{ url('/kepengurusan') }}">Kepengurusan</a>
                 <a class="nav-item nav-link" href="{{ url('/organisasi') }}">Event</a>
                 <a class="nav-item nav-link" href="{{ url('/prodi') }}">Aspirasi</a>
@@ -59,6 +52,7 @@
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <img src="{{ Auth::user()->avatar }}" alt="Avatar" class="avatar"> <!-- Display the user's avatar -->
                             {{ Auth::user()->name }}
                         </a>
 
@@ -102,6 +96,13 @@
         font-family: sans-serif;
         font-weight: bold;
         border-radius: 20px;
+    }
+
+    .avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
     }
 </style>
 

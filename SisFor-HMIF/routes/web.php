@@ -34,9 +34,14 @@ Route::get('/kepengurusan', [HomeControllerKepengurusan::class, 'index'])->name(
 Route::get('/kepengurusan', [KepengurusanController::class, 'indexUser'])->name('home')->withoutMiddleware(['auth']);
 Route::middleware(['auth', 'admin'])->get('/adminHM', [App\Http\Controllers\HomeControllerAdmin::class, 'index'])->name('homeAdmin');
 
-Route::get('/admin/users', [UserController::class, 'index'])->name('userList');
 
 Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
+
+    Route::get('/users', [UserController::class, 'index'])->name('user.index');
+    Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('user.edit');
+    Route::put('/users/{user}', [UserController::class, 'update'])->name('user.update');
+    Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('user.destroy');
+
     Route::get('/berita', [PostController::class, 'index'])->name('posts.index');
     Route::get('/berita/create', [PostController::class, 'create'])->name('posts.create');
     Route::post('/berita', [PostController::class, 'store'])->name('posts.store');
@@ -58,8 +63,6 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->group(function () {
     Route::put('/divisi/{divisi}', [divisiController::class, 'update'])->name('divisi.update');
     Route::delete('/divisi/{divisi}', [divisiController::class, 'destroy'])->name('divisi.destroy');
 });
-
-
 Route::get('/logout', function () {
     Auth::logout();
     return redirect('/');

@@ -44,7 +44,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('userList') }}">{{ __('User List') }}</a>
+                            <a class="nav-link" href="{{ route('user.index') }}">{{ __('User List') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('posts.index') }}">{{ __('Berita') }}</a>

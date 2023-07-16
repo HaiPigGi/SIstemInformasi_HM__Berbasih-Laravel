@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\ValidationException;
 use Laravel\Socialite\Facades\Socialite;
 
 class GoogleController extends Controller
@@ -25,7 +26,7 @@ class GoogleController extends Controller
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function handleGoogleCallback()
+    public function handleGoogleCallback(Request $request)
     {
         try {
             $googleUser = Socialite::driver('google')->user();
@@ -39,19 +40,25 @@ class GoogleController extends Controller
                     'name' => $googleUser->getName(),
                     'email' => $googleUser->getEmail(),
                     'google_id' => $googleUser->getId(),
+                    'password' => bcrypt($request->input('password')),
+                    'avatar' => $googleUser->getAvatar(), // Save the avatar URL from Google
                 ]);
+
                 // Log in the newly created user
                 Auth::login($userData);
                 return redirect()->intended('/home');
             } else {
-                Auth::login($user);
-                return redirect() ->intended('/home');
-            }
+                // User is already registered, validate the password
+                if ($request->has('password') && !Auth::attempt(['email' => $user->email, 'password' => $request->input('password')])) {
+                    throw ValidationException::withMessages(['password' => 'Invalid password']);
+                }
 
+                Auth::login($user);
+                return redirect()->intended('/home');
+            }
         } catch (\Exception $e) {
             // Handle the exception
-            dd('something went wrong',$e->getMessage());
+            dd('something went wrong', $e->getMessage());
         }
     }
-
 }
