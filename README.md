@@ -76,3 +76,8 @@ Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek 
 Terima kasih telah menggunakan Sistem Informasi HM Berbasis Laravel!
 
 
+
+![image](https://github.com/HaiPigGi/SIstemInformasi_HM__Berbasih-Laravel/assets/119752348/68507e2a-49eb-412d-b14b-a66adabce14b)
+
+
+
